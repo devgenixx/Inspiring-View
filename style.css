@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-color: #ffffff; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  background-color: #FFCD9E;
+  padding: 50px 0;
+  text-align: left;
+  flex: 1;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 100%;
+
+}
+
+.content {
+  max-width: 600px;
+  color: #282828;
+}
+
+.content h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  /* font-weight: 700; */
+}
+
+.content .description {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #484848;
+}
+
+.sub-text {
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+
+.email-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.email-form input {
+  padding: 10px;
+  flex: 1;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  border-width: 4px;
+  font-size: 1.3rem;
+}
+
+::placeholder{
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  color: #888888d0;
+}
+
+.email-form button {
+  padding: 20px 50px;
+  background-color: #282828;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#note {
+  font-size: 1rem;
+  color: #ffffff;
+  font-weight: 500;
+  
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #282828;
+  font-size: 1.3rem;
+  color: #FFFFFF;
+  padding: 20px 0;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.footer-content {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.f-content-left {
+  text-align: left;
+}
+
+.f-content-right {
+  text-align: right;
+}
+
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+#empty-slot{
+  height: 1rem;
+}
